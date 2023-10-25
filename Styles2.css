@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0
+   
+}
+
+table {
+    border-collapse: collapse;
+    gap: 0;
+}
+
+#dashboard{
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+#dashboard tr td{
+    width: 80px; 
+    height: 80px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ #dashboard tr td:hover{
+background-color: green;
+cursor: pointer;
+transition: 1s;
+}
